@@ -1,0 +1,27 @@
+{
+  "name": "svelte_routing_boilerplate",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "watch:tailwind": "postcss global/tailwind.css -o global/index.css -w",
+    "build:tailwind": "cross-env NODE_ENV=production postcss global/tailwind.css -o global/index.css",
+    "dev": "vite",
+    "build": "vite build --emptyOutDir",
+    "preview": "vite preview",
+    "start": "nodemon express/dist/server.js"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.2",
+    "@types/express": "^4.17.14",
+    "autoprefixer": "^10.4.12",
+    "postcss-cli": "^10.0.0",
+    "svelte": "^3.49.0",
+    "tailwindcss": "^3.1.8",
+    "vite": "^3.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}

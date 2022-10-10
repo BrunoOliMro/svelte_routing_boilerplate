@@ -1,0 +1,1 @@
+import{S as o,i as r,s as i,e as c,a as l,n,d as p}from"./index.062fa6b9.js";function m(a){let e;return{c(){e=c("h1"),e.textContent="landing"},m(t,s){l(t,e,s)},p:n,i:n,o:n,d(t){t&&p(e)}}}class d extends o{constructor(e){super(),r(this,e,null,m,i,{})}}new d({target:document.getElementById("app")});
