@@ -12,6 +12,6 @@ export default defineConfig({
         login: path.resolve(__dirname, "login/index.html")
       },
     },
-    outDir: "./build/"
+    outDir: "../server/build"
   }
 })
